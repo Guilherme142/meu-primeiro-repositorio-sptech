@@ -4,9 +4,30 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .caixa{
+                width: 250px;
+                height: 250px;
+                background-color: teal;
+                border: 1px solid black;
+            }
+            .container{
+                display: flex;
+                justify-content: space-between; /*justify-content: end;(final da pag)*/
+                align-items: center;
+                width: 100%;
+                height: 500px;
+            }
+        </style>
+
         <title>Testando css</title>
     </head>
     <body>
-        
+
+        <div class="container">
+            <div class="caixa"></div>
+            <div class="caixa"></div>
+        </div>
+
     </body>
 </html>
